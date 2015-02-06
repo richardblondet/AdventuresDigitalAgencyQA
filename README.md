@@ -1,4 +1,4 @@
-# **Adventures Digital Agency **
+# Adventures Digital Agency 
 **Adventures Digital Agency Code Standards.**
 
 Con estos estándares buscamos asegurar un alto nivel de [interoperatibilidad](http://definition-interoperabilite.info/es/), es decir, la capacidad que tiene un producto o un sistema, cuyas interfaces son totalmente conocidas, para funcionar con otros productos o sistemas existentes o futuros y eso sin restricción de acceso o de implementación.  Esto nos permite portar el código fuente entre los miembros, y facilita la legibilidad y entendimiento de los proyectos sin importar el autor o el participante del mismo.
