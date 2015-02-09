@@ -98,5 +98,5 @@ class Calculos_Generales {
 * @see Calculos_Generales :: hola_mundo ()
 * @link funciones-clases/ejemplo-clase.php
 */
-$EjemploClase	=	new Calculos_Generales();
+$EjemploClase =	new Calculos_Generales();
 ?>
