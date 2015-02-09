@@ -1,13 +1,11 @@
 Documentación
-===
-Funciones y Clases
 ---
+
+###Funciones y Clases
 La idea de aplicar estas prácticas es para luego implementar una herramienta que permita generar la documentación automáticamente a partir de lo que contiene el código fuente, una de estas herramientas en evaluación es [phpDocumentator](http://phpdoc.org/). 
 
 Use espacios dentro del bloque, no fichas, y asegurarse de que los elementos de cada grupo de variables están alineadas según los ejemplos.
 
-Las funciones y clases
---
 La estructura recomendada para añadir documentación es:
 
     /**
@@ -17,17 +15,20 @@ La estructura recomendada para añadir documentación es:
      *
      * @package
      *
+     * @category NombreCategoria
+     * 
+     * @author NombreAutor
      * @since x.x.x
-     * @access 
+     * @access (para funciones o variables)
      *
-     * @see Function/method/class relied on
+     * @see Función/método/clase en la que depende
      * @link URL
-     * @global type $varname Description.
-     * @global type $varname Description.
+     * @global tipo $varname Descripción.
+     * @global tipo $varname Descripción.
      *
-     * @param type $var Description.
-     * @param type $var Optional. Description.
-     * @return type Description.
+     * @param tipo $var Descripción.
+     * @param tipo $var Optional. Descripción.
+     * @return tipo Descripción.
      */
 
 **1. Sumario** 
@@ -38,7 +39,7 @@ Es la descripción breve, llana y concisa de esta función o clase. Debe ser exp
  - *Buena respuesta: Visualizar última fecha de modificación para un puesto.*
  - *Mala: Muestra la fecha en que el mensaje fue modificada por última vez.*
 
- - Filtra: ¿Qué se está filtrada?
+ - Filtra: ¿Qué se está filtrando?
  - *Buena respuesta: Filtrar el contenido del post.*
  - *Mala: Le permite editar el contenido de la entrada que se emite en la plantilla de entrada.*
  - Acciones: Cuando hace un fuego acción?
@@ -81,3 +82,6 @@ Si en la función o en la clase, hacemos uso de variables globales, deberán ser
     }
 **9. Return**
 Es el valor de retorno de la función, o en algunos casos lo que devuelve al instanciar la clase. Debe indicarse todo tipo de posibles retornos. Al igual que el punto anterior, se nombra el tipo de la variable y su nombre. 
+
+**10. Category**
+Si la clase pertenece a un grupo específico y es necesario categorizarle, pues usamos esta etiqueta.
