@@ -58,12 +58,45 @@ class Calculos_Generales {
 	*
 	* @access public
 	*/
-	public function __construct() {
+	public function __construct($mensaje = "Hola Mundo") {
+		
+		$this->version = "0.1"; // Asigamos la versión de la clase
 
-		$this->version = "0.1";
-
+		$this->hola_mundo($mensaje); // Muestra el mensaje por default "Hola Mundo"
 	}
 
+	/**
+	* Muestra hola mundo por la pantalla
+	*
+	* Su función es mostrar el mensaje 'Hola Mundo' por pantalla, pero
+	* recibe por parametro una variable del tipo string para mostrar 
+	* otro mensaje
+	*
+	* @link http://php.net/manual/es/tutorial.firstpage.php
+	*
+	* @author Richard Blondet <richard@adventures.do>
+	*
+	* @param string @var $mensaje
+	* @see Calculos_Generales::__construct()
+	*
+	* @access public
+	*/
+	public function hola_mundo($mensaje) {
+
+		if(! is_string( $mensaje ) ) {
+			throw new Exception("Esta variable sólo acepta valores del tipo string", 1);
+			
+		}
+
+		echo $mensaje;
+	}
 
 }
+
+
+/**
+* @see Calculos_Generales :: hola_mundo ()
+* @link funciones-clases/ejemplo-clase.php
+*/
+$EjemploClase	=	new Calculos_Generales();
 ?>
