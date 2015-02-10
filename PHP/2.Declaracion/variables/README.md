@@ -8,3 +8,5 @@ Al declarar variables, es de buena práctica que el nombre de las mismas hablen 
     
     /* Ejemplo 2 */
     $datos_usuario = array(); // guarda los datos del usuarios 'nombre' y 'apellido'. 
+
+Además, los comentarios en línea y el formato (espaciados, tabulaciones, etc) de las mismas crean un gran impacto en la legibilidad.
