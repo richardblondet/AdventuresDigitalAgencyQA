@@ -8,5 +8,8 @@ Pero a pesar de eso, es el lenguaje de código abierto más popular de la web de
 Accede a los directorios y consulta todas las veces que se necesiten hasta ya no ser necesario. Los ejemplos proporcionados en cada sección a continuación muestran el contenido esperado de bloque y las etiquetas, así como el formato exacto. 
 
 Algunos enlaces de interés:
+
 https://www.corephp.com/blog/php-best-practices-that-you-must-follow/
+
+http://pear.php.net/manual/en/standards.php
 
