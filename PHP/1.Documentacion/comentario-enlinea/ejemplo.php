@@ -5,7 +5,7 @@
 * Este archivo contiene un ejemplo de cómo pueden
 * usarse los comentarios en línea
 *
-* @link https://github.com/richardblondet/AdventuresDigitalAgencyStandards/blob/master/PHP/1.%20Documentaci%C3%B3n/comentario-enlinea/ejemplo.php
+* @link https://github.com/richardblondet/AdventuresDigitalAgencyStandards/blob/master/PHP/1.Documentacion/comentario-enlinea/ejemplo.php
 * @since DESCONOCIDA
 *
 * @package AdventuresDigitalAgencyStandards

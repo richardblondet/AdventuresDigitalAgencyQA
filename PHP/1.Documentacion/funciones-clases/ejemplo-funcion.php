@@ -4,7 +4,7 @@
 *
 * Contiene una función de ejemplo para la sección de Documentación: funciones y clases
 *
-* @link https://github.com/richardblondet/AdventuresDigitalAgencyStandards/blob/master/PHP/1.%20Documentaci%C3%B3n/
+* @link https://github.com/richardblondet/AdventuresDigitalAgencyStandards/blob/master/PHP/1.Documentacion/
 * @since DESCONOCIDA(valor por default: DESCONOCIDA)
 *
 * @package AdventuresDigitalAgencyStandards

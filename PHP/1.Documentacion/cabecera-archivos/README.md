@@ -42,4 +42,4 @@ Implica en qué versión del proyecto fue agregado esta función o clase. Si no 
 Es el ID del proyecto en cuestión. Ejemplo: si el nombre del proyecto es 'Campo Visual' entonces `@package campo-visual` representa el ID del proyecto en todo el código fuente. 
 
 **6. Sub Package**
-Es el ID del plugin o widget en cuestión. Todo lo que extienda funcionalidad al proyecto.
+Es el ID del plugin o widget en cuestión. Todo lo que extienda funcionalidad al proyecto, siempre que aplique.

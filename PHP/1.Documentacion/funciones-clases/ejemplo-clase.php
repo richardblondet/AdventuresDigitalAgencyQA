@@ -4,7 +4,7 @@
 *
 * Contiene la clase de ejemplo para la sección de Documentación: funciones y clases
 *
-* @link https://github.com/richardblondet/AdventuresDigitalAgencyStandards/blob/master/PHP/1.%20Documentaci%C3%B3n/
+* @link https://github.com/richardblondet/AdventuresDigitalAgencyStandards/blob/master/PHP/1.Documentacion/
 * @since DESCONOCIDA(valor por default: DESCONOCIDA)
 *
 * @package AdventuresDigitalAgencyStandards
@@ -95,6 +95,10 @@ class Calculos_Generales {
 
 
 /**
+* Realiza cálculos generales
+*
+* A la hora de instanciar, indicamos dónde podemos encontrar el archivo de esta clase.
+*
 * @see Calculos_Generales :: hola_mundo ()
 * @link funciones-clases/ejemplo-clase.php
 */
