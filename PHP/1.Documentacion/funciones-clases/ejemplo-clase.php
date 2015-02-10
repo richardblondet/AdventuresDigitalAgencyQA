@@ -2,10 +2,10 @@
 /**
 * Ejemplo clase
 *
-* Contiene la clase de ejemplo para la sección de Documentación: funciones y clases
+* Contiene la clase de ejemplo para la sección de Documentación: funciones y clases.
 *
 * @link https://github.com/richardblondet/AdventuresDigitalAgencyStandards/blob/master/PHP/1.Documentacion/
-* @since DESCONOCIDA(valor por default: DESCONOCIDA)
+* @since DESCONOCIDA
 *
 * @package AdventuresDigitalAgencyStandards
 * @subpackage Documentación_funciones-clases
