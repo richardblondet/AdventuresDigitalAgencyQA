@@ -1,6 +1,6 @@
 <?php
 /**
-* Ejemplo clase (sin puntos)
+* Ejemplo clase
 *
 * Contiene la clase de ejemplo para la sección de Documentación: funciones y clases
 *
