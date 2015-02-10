@@ -35,6 +35,7 @@
 */
 if(! function_exists( 'hola_mundo' ) ) {
 	
+	/* Las funciones se declaran utilizando las palabras con el underscore (_) */
 	function hola_mundo( $foo = 'foo', $bar = 'bar' ) {
 
 		echo "Hola, " . $foo . $bar . ", cómo estás"; 

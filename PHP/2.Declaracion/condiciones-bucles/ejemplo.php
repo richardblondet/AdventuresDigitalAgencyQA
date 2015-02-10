@@ -35,6 +35,18 @@ elseif ( $condicion ) {
 
 }
 
+/**
+* Condiciones Yoda
+* 
+* Las condiciones Yoda se identifican por 
+* tener las variables del lado derecho. Vea ejemplo:
+*/
+if ( true == $condicion ) {
+
+	# La variable del lado derecho, ir pueden.
+	
+}
+
 while ( $condicion ) {
 
 	# Este bloque necesita control
