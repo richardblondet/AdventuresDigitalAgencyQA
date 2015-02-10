@@ -83,3 +83,14 @@ Es el valor de retorno de la función, o en algunos casos lo que devuelve al ins
 
 **10. Category**
 Si la clase pertenece a un grupo específico y es necesario categorizarle, pues usamos esta etiqueta.
+
+
+Las propiedades de las clases deberían tener el siguiente formato: 
+
+    /**
+     * Sumario.
+     *
+     * @since x.x.x
+     * @access (para funciones o variables)
+     * @var tipo $nombreVariable descripción
+     */

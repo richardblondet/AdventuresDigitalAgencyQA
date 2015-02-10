@@ -34,11 +34,9 @@ class Calculos_Generales {
 	/**
 	* Versión de la clase.
 	*
-	* Los valores deben aumentar sólo para su parte decimal.
-	*
-	* @var string
-	* 
+	* @since 0.1
 	* @access private
+	* @var string $version es la versión de esta clase
 	*/
 	private string $version; 
 
