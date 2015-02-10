@@ -6,3 +6,7 @@ PHP es un lenguaje complejo que ha sufrido años de modificaciones, estiramiento
 Pero a pesar de eso, es el lenguaje de código abierto más popular de la web del hoy. Cuenta con una comunidad muy grande de desarrolladores y junto con el una gran cantidad de recursos y herramientas disponibles a todo público. 
 
 Accede a los directorios y consulta todas las veces que se necesiten hasta ya no ser necesario. Los ejemplos proporcionados en cada sección a continuación muestran el contenido esperado de bloque y las etiquetas, así como el formato exacto. 
+
+Algunos enlaces de interés:
+https://www.corephp.com/blog/php-best-practices-that-you-must-follow/
+
