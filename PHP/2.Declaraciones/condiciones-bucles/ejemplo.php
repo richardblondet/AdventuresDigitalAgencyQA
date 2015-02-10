@@ -67,3 +67,16 @@ foreach ( $items as $item ) {
 
 }
 ?>
+<?php
+	/**
+	* Para condiciones dentro de la Plantilla HTML
+	* podemos condicionar de la siguiente manera:
+	*/
+?>
+<?php if ( $condicion ): ?>
+	<div class="aviso">
+		<span>
+			Error
+		</span>
+	</div>
+<?php endif; ?>
