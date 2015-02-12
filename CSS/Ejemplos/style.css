@@ -1,0 +1,125 @@
+/*!
+Estilos project-id 
+@autor Richard Blondet <richard@adventures.do>
+@actualizado Fecha última actualización formato DD.MM.AAAA
+*/
+
+
+
+/***************************************
+	TABLA DE CONTENIDOS
+++++++++++++++++++++++++++++++++++++++++
+
+1. Reset
+2. Generales
+-- 2.1 Personalización Framework
+3. Header
+4. Content Body
+5. Footer
+
+***************************************
+***************************************/
+
+/*=====================================
+1. Reset
+-- El reset pone los componentes planos y sin estilos.
+
+-- Podemos insertarlos antes del estilo en el código HTML, pero
+-- significaría hacer un pedido más al servidor.
+-- Si trabajamos con librerías como Bootstrap, éstos ya vienen incluidos y no es necesario
+
+-- Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+-- http://cssreset.com
+=====================================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*=====================================
+2. Generales
+-- Aplica para los elementos que serán padres.
+-- El título es tal cual está en el índice.
+=====================================*/
+html,
+body {
+	display: table;
+	width: 100%;
+}
+body {
+	font-family: helvetica, sans-serif, arial;
+	font-size: 100%;
+}
+
+/*=====================================
+-- 2.1 Personalización Framework
+--- Personalizamos los componentes genéricos de nuestras librerías, siempre que aplique
+=====================================*/
+.button {
+	border: none;
+}
+
+/*=====================================
+3. Header
+-- Estilos de la cabecera de nuestra página.
+-- Note que este título con su número es tal cuál
+-- está en la tabla de contenidos.
+
+-- Usamos tabs no espacios para las propiedades.
+=====================================*/
+#header {
+	position: static;
+	padding: 5px 10px;
+}
+
+/*=====================================
+4. Content Body
+=====================================*/
+#main {}
+
+/*=====================================
+5. Footer
+=====================================*/
+#footer {}
+
+
+/* Fin del Archivo */
