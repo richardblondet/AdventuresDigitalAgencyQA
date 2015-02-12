@@ -11,7 +11,7 @@ Author URI: mailto:autor@adventures.do
 /**
  * Wordpress hook para registrar el widget
  */
-add_action('widgets_init', create_function('', 'return register_widget("Widget_Base_Para_Wordress");'));
+add_action( 'widgets_init', create_function( '', 'return register_widget("Widget_Base_Para_Wordress");' ) );
 
 /**
  * Class Widget_Base_Para_Wordress
@@ -53,7 +53,7 @@ class Widget_Base_Para_Wordress extends WP_Widget {
 	 * @param array $args
 	 * @param array $instance
 	 */
-	public function widget($args, $instance) {
+	public function widget( $args, $instance ) {
 		$title = apply_filters('widget_title', $instance['title']);
 
 		/* Los antes y despues del widget generalmente están determinados por cómo se inicializan los saidebar por tema */
@@ -72,7 +72,7 @@ class Widget_Base_Para_Wordress extends WP_Widget {
 	/**
 	 * Esta función ejecutará la lógica del frontend del widget
 	 */
-	private function widget_output($args, $instance) {
+	private function widget_output( $args, $instance ) {
 		extract($instance);
 
 		/**
@@ -120,7 +120,7 @@ class Widget_Base_Para_Wordress extends WP_Widget {
 	 * @param string $field_default_value
 	 * @param string $field_type
 	 */
-	private function add_field($field_name, $field_description = '', $field_default_value = '', $field_type = 'text') {
+	private function add_field( $field_name, $field_description = '', $field_default_value = '', $field_type = 'text' ) {
 		
 		if( !is_array($this->fields) )
 			$this->fields = array();
@@ -135,7 +135,7 @@ class Widget_Base_Para_Wordress extends WP_Widget {
 	 * @param array $old_instance
 	 * @return array
 	 */
-	public function update($new_instance, $old_instance) {
+	public function update( $new_instance, $old_instance ) {
 		return $new_instance;
 	}
 }
