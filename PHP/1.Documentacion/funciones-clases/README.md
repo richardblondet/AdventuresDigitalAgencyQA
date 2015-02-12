@@ -84,6 +84,9 @@ Es el valor de retorno de la función, o en algunos casos lo que devuelve al ins
 **10. Category**
 Si la clase pertenece a un grupo específico y es necesario categorizarle, pues usamos esta etiqueta.
 
+**11. Param**
+Es o son las variables pasadas por parámetros según corresponda. Junto a ella va el tipo de variable pasada, su nombre y una breve descripción
+
 
 Las propiedades de las clases deberían tener el siguiente formato: 
 
