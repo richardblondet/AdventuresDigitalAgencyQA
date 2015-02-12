@@ -39,4 +39,4 @@ Incorrecto:
 	<!-- FIN Cabecera --> 
 
 ####Scripts
-Los Scripts son insertados antes de cerrar la etiqueta <body>.
+Los Scripts son insertados antes de cerrar la etiqueta `<body>`.
