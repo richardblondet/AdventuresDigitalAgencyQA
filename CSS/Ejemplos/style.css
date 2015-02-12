@@ -78,6 +78,7 @@ table {
 
 /*=====================================
 2. Generales
+
 -- Aplica para los elementos que serán padres.
 -- El título es tal cual está en el índice.
 =====================================*/
@@ -93,6 +94,7 @@ body {
 
 /*=====================================
 -- 2.1 Personalización Framework
+
 --- Personalizamos los componentes genéricos de nuestras librerías, siempre que aplique
 =====================================*/
 .button {
@@ -101,6 +103,7 @@ body {
 
 /*=====================================
 3. Header
+
 -- Estilos de la cabecera de nuestra página.
 -- Note que este título con su número es tal cuál
 -- está en la tabla de contenidos.
