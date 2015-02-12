@@ -1,7 +1,7 @@
 Wordpress Widget
 ===
 
-Esta es una contribución de Khromov, que podemos encontrar [aquí](https://github.com/khromov/wp-better-starter-widget). Utilizamos esta clase para registrar nuestros widgets en nuestro tema o como plugin, dependiendo de la necesidad en cuanto al proyecto se refiera.
+Esta es una contribución de Khromov, que podemos encontrar [aquí](https://github.com/khromov/wp-better-starter-widget). Utilizamos esta clase para registrar nuestros widgets en nuestro tema o como plugin, dependiendo de la necesidad en cuanto al proyecto se refiera. La idea y la intención perseguida de usar una clase base es, implementar widgets en el mismo idioma, modulares y de fácil uso
 
 Si deseamos que esté incluido exclusivamente en el tema desarrollado, en el archivo `functions.php` agregamos:
 
