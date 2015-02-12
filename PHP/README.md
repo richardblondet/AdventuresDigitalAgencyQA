@@ -9,7 +9,11 @@ Accede a los directorios y consulta todas las veces que se necesiten hasta ya no
 
 Algunos enlaces de interés:
 
-https://www.corephp.com/blog/php-best-practices-that-you-must-follow/
+- https://www.corephp.com/blog/php-best-practices-that-you-must-follow/
+- http://pear.php.net/manual/en/standards.php
+- http://code.tutsplus.com/tutorials/30-php-best-practices-for-beginners--net-6194
 
-http://pear.php.net/manual/en/standards.php
+
+
+
 
